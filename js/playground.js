@@ -19,9 +19,7 @@ doesStartWithJS = text.startsWith("Javascript");
 console.log("this text: " + "'" + text + "'" + "\n" + doesStartWithJS + "ly starts with the word Javascript");
 
 
-let vek = 15;
-let plnoletost = vek < 18 ? "neplnoletý" : "plnoletý";  //Ternární operátor
-console.log(plnoletost)
+
 
 
 let operace = '+'
@@ -153,3 +151,7 @@ const zoo = ["Lev", "Opice", "Tigr"]
 
 zoo.forEach((zvire) => console.log(zvire))
 */
+
+let vek = 15;
+let plnoletost = vek < 18 ? "neplnoletý" : "plnoletý";  //Ternární operátor
+console.log(plnoletost)

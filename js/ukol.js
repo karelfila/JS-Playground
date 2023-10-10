@@ -36,7 +36,6 @@ console.log(scifiAvg(books))
 
 
 
-
 //Vytvořte nový seznam knih, kde je cena každé knihy snížena o 10%.
 
 let discountedBooks = books.map(book => ({ ...book, price: book.price * 0.9 }));
